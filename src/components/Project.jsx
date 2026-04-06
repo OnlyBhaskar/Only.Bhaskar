@@ -1,18 +1,14 @@
 import { div, span } from "framer-motion/client";
-import image1 from "../assets/image1.png";
-import image2 from "../assets/image2.png";
-import image3 from "../assets/image3.png";
-import image4 from "../assets/image4.png";
-import image5 from "../assets/image5.png";
+import ecom from '../assets/ecom.jpeg'
 
 import { motion } from "framer-motion";
 
 const projectData = [
   {
-    image: image1,
+    image: ecom,
     title: "Habit Tracker",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae neque dolorem rerum architecto ipsam dolores enim exercitationem placeat voluptate, rem qui atque,",
+      "Launched a full-stack E-Commerce platform leveraging React.js, Redux Toolkit, and Tailwind CSS, featuring a seamless shopping cart experience and responsive UI. Implemented RESTful API integrations to manage dynamic product data and optimized frontend performance for faster load times ",
     technologies: [
       "HTML",
       "JavaScript",
@@ -21,58 +17,7 @@ const projectData = [
       "Framer Motion",
     ],
   },
-  {
-    image: image2,
-    title: "Habit Tracker2",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae neque dolorem rerum architecto ipsam dolores enim exercitationem placeat voluptate, rem qui atque,",
-    technologies: [
-      "HTML",
-      "JavaScript",
-      "React",
-      "Tailwind CSS",
-      "Framer Motion",
-    ],
-  },
-  {
-    image: image3,
-    title: "Habit Tracker3",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae neque dolorem rerum architecto ipsam dolores enim exercitationem placeat voluptate, rem qui atque, ",
-    technologies: [
-      "HTML",
-      "JavaScript",
-      "React",
-      "Tailwind CSS",
-      "Framer Motion",
-    ],
-  },
-  {
-    image: image4,
-    title: "Habit Tracker4",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae neque dolorem rerum architecto ipsam dolores enim exercitationem placeat voluptate, rem qui atque,",
-    technologies: [
-      "HTML",
-      "JavaScript",
-      "React",
-      "Tailwind CSS",
-      "Framer Motion",
-    ],
-  },
-  {
-    image: image5,
-    title: "Habit Tracker",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae neque dolorem rerum architecto ipsam dolores enim exercitationem placeat voluptate, rem qui atque, ",
-    technologies: [
-      "HTML",
-      "JavaScript",
-      "React",
-      "Tailwind CSS",
-      "Framer Motion",
-    ],
-  },
+  
 ];
 
 const ScrollReveal = ({ children }) => {

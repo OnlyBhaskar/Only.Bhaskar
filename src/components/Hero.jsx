@@ -18,7 +18,7 @@ function Hero() {
         className=' flex max-w-[600px] flex-col items-center justify-center gap-3 text-center '>
           <h1 className='bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent text-5xl font-bold     md:text-7xl '>BHASKAR</h1>
           <h3 className='bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent text-2xl font-light md:text-3xl'>React Developer</h3>
-          <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aspernatur ad minima praesentium rerum repellendus dolorem eligendi maiores, sed reprehenderit asperiores voluptas eveniet unde. Molestias ducimus quidem rem corrupti ratione!</p>
+          <p className=''>Dynamic Front-End Developer with a proven track record in building scalable, user-centric web applications using React.js and modern CSS frameworks. Adept at transforming complex requirements into seamless digital experiences with a focus on performance optimization and responsive design.</p>
         </motion.div>
       </div>
     </div>

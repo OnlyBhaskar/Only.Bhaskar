@@ -1,4 +1,4 @@
-import { div, span } from "framer-motion/client";
+import { a, div, span } from "framer-motion/client";
 import ecom from '../assets/ecom.jpeg'
 import SocialApp from "../assets/SocialApp.jpeg";
 
@@ -8,6 +8,7 @@ const projectData = [
   {
     image: SocialApp,
     title: "Social App",
+    Open: <a href="https://socialapp-indol-psi.vercel.app/" target="_blank" rel="noopener noreferrer">Open</a>,
     description: "",
     technologies: [
       "HTML",
@@ -18,7 +19,7 @@ const projectData = [
   },
   {
     image: ecom,
-    title: "Habit Tracker",
+    title: "E-commerce",
     description:
       "Launched a full-stack E-Commerce platform leveraging React.js, Redux Toolkit, and Tailwind CSS, featuring a seamless shopping cart experience and responsive UI. Implemented RESTful API integrations to manage dynamic product data and optimized frontend performance for faster load times ",
     technologies: [
@@ -49,10 +50,11 @@ const ProjectCard = ({ Project }) => {
   return (
     <ScrollReveal>
     <div className="flex flex-col items-center gap-8 md:flex-row md:gap-24 ">
-      <img src={Project.image} alt="" className="w-full cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:w-[300px]" />
+      <img src={Project.image}  alt="" className="w-full cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:w-[300px]" />
       <div className="flex flex-col gap-5  ">
         <div className="flex flex-col gap-3 ">
           <div className=" text-xl font-semibold ">{Project.title}</div>
+          <div className=" text-xl font-semibold bg-red-600 rounded-2xl w-30 p-1  text-center text-white">{Project.Open}</div>
           <p className="text-gray-400">{Project.description}</p>
         </div>
         <div className="flex flex-wrap gap-5  ">

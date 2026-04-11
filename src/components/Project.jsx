@@ -1,9 +1,21 @@
 import { div, span } from "framer-motion/client";
 import ecom from '../assets/ecom.jpeg'
+import SocialApp from "../assets/SocialApp.jpeg";
 
 import { motion } from "framer-motion";
 
 const projectData = [
+  {
+    image: SocialApp,
+    title: "Social App",
+    description: "",
+    technologies: [
+      "HTML",
+      "JavaScript",
+      "React",
+      "Tailwind CSS",
+    ],
+  },
   {
     image: ecom,
     title: "Habit Tracker",

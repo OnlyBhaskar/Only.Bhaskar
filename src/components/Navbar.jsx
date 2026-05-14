@@ -100,24 +100,28 @@ function Navbar() {
         >
           <ul className="flex flex-col gap-9">
             <a
+              onClick={menuOpen}
               href="#home"
               className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
             >
               <li>Home</li>
             </a>
             <a
+              onClick={menuOpen}
               href="#tech"
               className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
             >
               <li>Tech</li>
             </a>
             <a
+              onClick={menuOpen}
               href="#projects"
               className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
             >
               <li>Projects</li>
             </a>
             <a
+              onClick={menuOpen} 
               href="#contact"
               className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
             >
